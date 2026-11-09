@@ -395,7 +395,7 @@ export class Help extends plugin {
       console.log('未找到e.runtime，请升级至最新版Yunzai')
     }
 
-    const BotName = Version.isMiao ? 'Miao-Yunzai' : 'Yunzai-Bot'
+    const BotName = Version.isMangoCat ? 'MangoCat-Yunzai' : Version.isMiao ? 'Miao-Yunzai' : 'Yunzai-Bot'
     let currentVersion = null
     const package_path = `${pluginRoot}/package.json`
     try {
